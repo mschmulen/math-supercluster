@@ -1,0 +1,42 @@
+{
+  "name": "math-supercluster",
+  "version": "0.0.0",
+  "description": "math super cluster leveraging supercluster ",
+  "main": "app.js",
+  "scripts": {
+    "test" : "./node_modules/.bin/mocha --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mschmulen/math-supercluster.git"
+  },
+  "keywords": [
+    "distributed",
+    "network",
+    "programming"
+  ],
+  "author": "Matt Schmulen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mschmulen/math-supercluster/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "async-err": "~0.0.0",
+    "config-js": "~0.0.1",
+    "debug": "~0.7.2",
+    "exec": "~0.0.6",
+    "funcserialize": "~0.0.2",
+    "is2": "~0.0.5",
+    "json-rest-api": "~0.0.1",
+    "mkdirp": "~0.3.5",
+    "obj-to-json": "~0.0.0",
+    "remove": "~0.1.5",
+    "request": "~2.27.0",
+    "sc-discovery": "git+ssh://git@github.com:strongloop/sc-discovery.git"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "optimist": "~0.6.0"
+  }
+}
