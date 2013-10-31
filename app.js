@@ -14,8 +14,8 @@ var task = {
       { cmd: 'git', args: ['checkout', 'v1.1'] },
       { cmd: 'npm', args: ['install'] },
     ],
-    //cmd: { cmd: 'ls', args: ['-a'] }
-    cmd: { cmd: 'node app.js', args: ['22'] }  }
+    cmd: { cmd: 'node app.js', args: ['22'] }  
+	}
 };
 
 Master.on('workerTaskComplete', function(taskResult) {
